@@ -1,0 +1,26 @@
+//created by SASWAT RAJ
+//The question format should be like this and comments
+//are given by these.The objective function is given by
+//[obj] parameter and consists of a list of the coefficients
+//in order x1,x2.Each command should be on separate lines
+//and for each parameter open there should be a close of that
+//parameter like [!obj].Be careful of the spacing i.e
+//always one space in between options.
+#[obj]
+#[4,3]
+#[!obj]
+//const for constraints
+//lt for less than
+//gt for gt
+//eq for equal to
+#[const]
+#[1,1] lt 8
+#[2,1] lt 10
+#[!const]
+//varc for the variable constraints
+//gt,lt and un
+//un stands for undefined
+//currently only gt is supported
+#[varc]
+#[gt,gt]
+#[!varc]
